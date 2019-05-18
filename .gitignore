@@ -1,0 +1,4 @@
+*.pem
+*.zip
+.DS_Store
+.Trash

@@ -1,0 +1,39 @@
+.fd-pannel {
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  padding: 40px 25%;
+  background: rgba(255,255,255,.95);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  color: #333;
+  overflow-y: scroll;
+}
+.hidden{
+  display: none;
+}
+h1.fd-pannel-title {
+  font-size: 32px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+.fd-pannel-close {
+  position: absolute;
+  top: 48px;
+  right: 25%;
+  font-size: 32px;
+  color: #bfbfbf;
+  line-height: 1;
+  cursor: pointer;
+}
+.fd-pannel-table{
+  margin-bottom: 40px;
+}
+.fd-pannel-table th:first-child{
+  width: 70%;
+}
+.fd-pannel-table td{
+  text-align: center;
+}

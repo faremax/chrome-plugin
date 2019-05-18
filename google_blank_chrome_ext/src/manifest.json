@@ -1,0 +1,30 @@
+{
+  "name": "Fare Google Blank",
+  "version": "1.2.1",
+  "manifest_version": 2,
+  "description": "google blank extension",
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "script": [
+      "bg.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "https://www.google.com/*"
+  ],
+  "offline_enabled": false,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
